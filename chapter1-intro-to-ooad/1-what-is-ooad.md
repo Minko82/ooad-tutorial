@@ -34,9 +34,7 @@ Here, `Cat` is the class (blueprint), and each `Cat` object can have different n
 - **Attributes**: These are the **properties** of the object. For example, `name`, `color`, and `age` are **attributes** of the Cat object.
 - **Methods**: These are the **actions** the object can do. For example, `meow()` is a **method** that tells the cat to meow.
 
-In the previous code example:  
-For example:
-
+For example, in the previous code snippet:  
 ```java
 class Cat {
     String name;  // This is an attribute (characteristic) of the cat
