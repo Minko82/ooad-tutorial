@@ -1,11 +1,8 @@
-# 🚀 **Object-Oriented Design (OOD) Basics**
+# 🚀 **Key Concepts in OOAD**
 
-## **What is Object-Oriented Design?**
-Object-Oriented Design (OOD) is a way of organizing your code. Instead of everything being a big mess, you group related things together into **objects**. Each object has **data** (like a name or number) and **actions** (like moving or changing).
+There are four key ideas in OOD: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**. These are often referred to as **the Four Pillars of Object-Oriented Design (OOD)**, and they help make code easier to write and understand.
 
 <br>
-
----
 
 ## **🏛️ The Four Pillars of OOD 🏛️**
 
