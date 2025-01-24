@@ -39,7 +39,7 @@ For example, in the previous code snippet:
 class Cat {
     String name;  // This is an attribute (characteristic) of the cat
     String color; // Another attribute
-    int age;       // Another attribute
+    int age;      // Another attribute
     
     // This is a method (action) the cat can do
     public void meow() {
