@@ -1,15 +1,15 @@
 # 🚀 **Object-Oriented Design (OOD) Basics**
 
-### **What is Object-Oriented Design?**
+## **What is Object-Oriented Design?**
 Object-Oriented Design (OOD) is a way of organizing your code. Instead of everything being a big mess, you group related things together into **objects**. Each object has **data** (like a name or number) and **actions** (like moving or changing).
 
 <br>
 
 ---
 
-### **The Four Pillars of OOD**
+## **🏛️ The Four Pillars of OOD 🏛️**
 
-#### 1. **Encapsulation 🔒**: Keeping Things Safe 
+### 1. **Encapsulation 🔒**: Keeping Things Safe 
 
 **Encapsulation** is like having a box where the important things are hidden away. You don’t let anyone touch the important stuff directly, only through safe methods.
 
@@ -31,7 +31,7 @@ class BankAccount {
 
 <br>
 
-#### 2. **Abstraction 🌫️**: Hiding the Complicated Stuff 
+### 2. **Abstraction 🌫️**: Hiding the Complicated Stuff 
 **Abstraction** means you don’t need to know the complicated details. You just use what you need.
 
 - **Example**: When you use a car, you don’t need to know how the engine works. You just press the gas pedal to go!
@@ -51,7 +51,7 @@ class Car extends Vehicle {
 
 <br>
 
-#### 3. **Inheritance 🔁**: Sharing Features  
+### 3. **Inheritance 🔁**: Sharing Features  
 **Inheritance** is like a family where children get traits from their parents. You don’t need to create everything from scratch!
 
 - **Example**: A Vehicle class has basic features, and Car and Truck inherit those features, but they can also add their own.
@@ -72,7 +72,7 @@ class Car extends Vehicle {
 
 <br>
 
-#### 4. **Polymorphism ⚙️**: One Name, Many Actions  
+### 4. **Polymorphism ⚙️**: One Name, Many Actions  
 **Polymorphism** means that one name can do different things! The same action can be done in different ways by different objects.
 
 - **Example**: Both Car and Truck have a move() action, but they each do it in their own way.
