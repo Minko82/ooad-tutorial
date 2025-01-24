@@ -16,7 +16,7 @@
 ---
 
 
-## **🤝 Coupling: 🤝**
+## **Coupling 🤝**
 **Coupling** is about how much parts of a system depend on each other.
 
 - **Tight coupling**: If one part needs a lot of help from others. Changes affect many things.
@@ -28,7 +28,7 @@
 
 ---
 
-## **🔗 Cohesion: 🔗**
+## **Cohesion 🔗**
 **Cohesion** is how well parts of a system work together to do one job.
 
 - **High cohesion**: Everything in a part is focused on the same task.
@@ -40,15 +40,17 @@
 
 ---
 
-## **🏛️ The Four Pillars of OOD 🏛️**
+## **The Four Pillars of OOD 🏛️**
 
 Object-Oriented Analysis and Design (OOAD) revolves around four key ideas: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**. These ideas, also called **the Four Pillars of OOAD**, help make software systems more organized, flexible, and easy to maintain.
 
 <br>
 
-### → **Encapsulation** 🔒: Keeping Things Safe 
+### → **🏛️ Encapsulation** 🔒: Keeping Things Safe 
 
 **Encapsulation** is like having a box where the important things are hidden away. You don’t let anyone touch the important stuff directly, only through safe methods.
+
+<br>
 
 - **Example**: Imagine a `BankAccount` object. The balance is hidden inside the object, and you can only change it by calling `deposit()` or `withdraw()`.
 
@@ -71,10 +73,14 @@ class BankAccount {
 
 <br>
 
+.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆
 
+<br>
 
-### → **Abstraction** 🌫️: Hiding the Complicated Stuff 
+### → **🏛️ Abstraction** 🌫️: Hiding the Complicated Stuff 
 **Abstraction** means you don’t need to know the complicated details. You just use what you need.
+
+<br>
 
 - **Example**: When you use a car, you don’t need to know how the engine works. You just press the gas pedal to go!
 
@@ -97,10 +103,14 @@ class Car extends Vehicle {
   
 <br>
 
+.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆
 
+<br>
 
-### → **Inheritance** 🔁: Sharing Features 
+### → **🏛️ Inheritance** 🔁: Sharing Features 
 **Inheritance** is like a family where children get traits from their parents. You don’t need to create everything from scratch!
+
+<br>
 
 - **Example**: A Vehicle class has basic features, and Car and Truck inherit those features, but they can also add their own.
 
@@ -122,10 +132,14 @@ class Car extends Vehicle {
 
 <br>
 
+.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆.　 . • ☆ . ° .• °:. *₊ ° . ☆
 
+<br>
 
-### → **Polymorphism** ⚙️: One Name, Many Actions 
+### → **🏛️ Polymorphism** ⚙️: One Name, Many Actions 
 **Polymorphism** means that one name can do different things! The same action can be done in different ways by different objects.
+
+<br>
 
 - **Example**: Both Car and Truck have a move() action, but they each do it in their own way.
 
