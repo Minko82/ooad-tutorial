@@ -9,32 +9,12 @@
 
 ## **Vocabulary in OOAD**
 
-### **1. 🧸 Objects and 🏗️ Classes**
 - **Objects**: These are like real-world things. For example, a `cat` is an object.
 - **Classes**: These are like blueprints or plans for creating objects. A `Cat` class would be the blueprint to create different cats (objects).
-
-For example:
-```java
-class Cat {
-    String name;  
-    String color; 
-    int age;       
-
-    public void meow() {
-        System.out.println("Meow!");
-    }
-}
-```
-
-Here, `Cat` is the class (blueprint), and each `Cat` object can have different names, colors, and ages, but they all can meow!
-
-<br>
-
-### 2. 🏷️ Attributes and 🔧 Methods
 - **Attributes**: These are the **properties** of the object. For example, `name`, `color`, and `age` are **attributes** of the Cat object.
 - **Methods**: These are the **actions** the object can do. For example, `meow()` is a **method** that tells the cat to meow.
-
-For example, in the previous code snippet:  
+  
+For example:
 ```java
 class Cat {
     String name;  // This is an attribute (characteristic) of the cat
@@ -47,6 +27,8 @@ class Cat {
     }
 }
 ```
+
+Here, `Cat` is the class (blueprint), and each `Cat` object can have different names, colors, and ages, but they all can meow!
 
 <br>
 
