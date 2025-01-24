@@ -57,6 +57,8 @@ class Car extends Vehicle {
   
 <br>
 
+---
+
 ### 3. **Inheritance 🔁**: Sharing Features  
 **Inheritance** is like a family where children get traits from their parents. You don’t need to create everything from scratch!
 
@@ -79,6 +81,8 @@ class Car extends Vehicle {
 - Inheritance helps with code **reuse** and **reducing redundancy**
 
 <br>
+
+---
 
 ### 4. **Polymorphism ⚙️**: One Name, Many Actions  
 **Polymorphism** means that one name can do different things! The same action can be done in different ways by different objects.
