@@ -1,12 +1,52 @@
 # 🚀 **Key Concepts in OOD**
 
-There are four key ideas in OOD: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**. These are often referred to as **the Four Pillars of Object-Oriented Design (OOD)**, and they help make code easier to write, understand, and maintain.
+### 📚 **Contents**
+
+- **Coupling 🤝**
+- **Cohesion 🔗**
+- **The Four Pillars of OOAD 🏛️**
+  - **Encapsulation 🔒**
+  - **Abstraction 🌫️**
+  - **Inheritance 🔁**
+  - **Polymorphism ⚙️**
+
 
 <br>
 
+---
+
+
+## **🤝 Coupling: 🤝**
+**Coupling** is about how much parts of a system depend on each other.
+
+- **Tight coupling**: If one part needs a lot of help from others. Changes affect many things.
+- **Loose coupling**: If parts can work mostly on their own. Changes affect less.
+
+💡 In coding, we aim for **loose coupling** to make things easier to change 💡
+
+<br>
+
+---
+
+## **🔗 Cohesion: 🔗**
+**Cohesion** is how well parts of a system work together to do one job.
+
+- **High cohesion**: Everything in a part is focused on the same task.
+- **Low cohesion**: Parts are tasks are scattered and not focused on the same task.
+
+💡 We want **high cohesion** in code for clarity and easier maintenance 💡
+
+<br>
+
+---
+
 ## **🏛️ The Four Pillars of OOD 🏛️**
 
-### 1. **Encapsulation 🔒**: Keeping Things Safe 
+Object-Oriented Analysis and Design (OOAD) revolves around four key ideas: **Encapsulation**, **Abstraction**, **Inheritance**, and **Polymorphism**. These ideas, also called **the Four Pillars of OOAD**, help make software systems more organized, flexible, and easy to maintain.
+
+<br>
+
+### → **Encapsulation** 🔒: Keeping Things Safe 
 
 **Encapsulation** is like having a box where the important things are hidden away. You don’t let anyone touch the important stuff directly, only through safe methods.
 
@@ -26,14 +66,14 @@ class BankAccount {
 }
 ```
 
-#### **💡 Why it's important 💡**
+#### **Why it's important 💡**
 - Encapsulation is key to **data security** and **simplicity** in code.
 
 <br>
 
----
 
-### 2. **Abstraction 🌫️**: Hiding the Complicated Stuff 
+
+### → **Abstraction** 🌫️: Hiding the Complicated Stuff 
 **Abstraction** means you don’t need to know the complicated details. You just use what you need.
 
 - **Example**: When you use a car, you don’t need to know how the engine works. You just press the gas pedal to go!
@@ -51,15 +91,15 @@ class Car extends Vehicle {
 }
 ```
 
-#### **💡 Why it's important 💡**
+#### **Why it's important 💡**
 - Abstraction **simplifies** complex systems.
 - By only exposing essential information and hiding unnecessary details, you make the code **easier** to understand and use.
   
 <br>
 
----
 
-### 3. **Inheritance 🔁**: Sharing Features  
+
+### → **Inheritance** 🔁: Sharing Features 
 **Inheritance** is like a family where children get traits from their parents. You don’t need to create everything from scratch!
 
 - **Example**: A Vehicle class has basic features, and Car and Truck inherit those features, but they can also add their own.
@@ -77,14 +117,14 @@ class Car extends Vehicle {
     }
 }
 ```
-#### **💡 Why it's important 💡**
+#### **Why it's important 💡**
 - Inheritance helps with code **reuse** and **reducing redundancy**
 
 <br>
 
----
 
-### 4. **Polymorphism ⚙️**: One Name, Many Actions  
+
+### → **Polymorphism** ⚙️: One Name, Many Actions 
 **Polymorphism** means that one name can do different things! The same action can be done in different ways by different objects.
 
 - **Example**: Both Car and Truck have a move() action, but they each do it in their own way.
@@ -110,6 +150,8 @@ class Truck extends Vehicle {
     }
 }
 ```
-#### **💡 Why it's important 💡**
+#### **Why it's important 💡**
 - Polymorphism enables **flexibility** and **extensibility** in your code.
-- It allows you to use the same method name for different types of objects, letting you write more **generic** and **reusable** code. 
+- It allows you to use the same method name for different types of objects, letting you write more **generic** and **reusable** code.
+
+<br>
