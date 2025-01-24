@@ -5,7 +5,7 @@ A walkthrough of the essential concepts and techniques used in Object-Oriented A
 ---
 
 ## 📝 **Table of Contents**
-1. [Introduction to OOAD](#introduction-to-ooad)
+1. [Introduction to OOAD](#intro-to-ooad)
 
 
 ---
